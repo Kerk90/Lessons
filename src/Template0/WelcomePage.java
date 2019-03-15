@@ -13,6 +13,7 @@ public class WelcomePage {
     public void showPage(){
         System.out.println("Header");
         System.out.println("Wecome");
+        System.out.println("Content");
         System.out.println("Footer");
     }
 }

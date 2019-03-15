@@ -9,23 +9,32 @@ package Template4;
  *
  * @author user
  */
-public class Tea {
-    void prepareRecipe(){
+public class Tea extends HotDrink {
+
+    @Override
+    void prepareRecipe() {
         boilWater();
         steepTeaBag();
         pourInCup();
         addLemon();
     }
-    public void boilWater(){
+
+    @Override
+    public void boilWater() {
         System.out.println("Boiling water");
     }
-    public void steepTeaBag(){
+
+    public void steepTeaBag() {
         System.out.println("Steeping the tea");
     }
-    public void pourInCup(){
+
+    @Override
+    public void pourInCup() {
         System.out.println("Adding Lemon");
     }
-    public void addLemon(){
+
+    public void addLemon() {
         System.out.println("Pouring into cup");
     }
+
 }

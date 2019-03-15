@@ -5,10 +5,11 @@
  */
 package Template2;
 
-/**
- *
- * @author user
- */
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
 public class Tea {
     void prepareRecipe(){
         boilWater();
@@ -28,5 +29,7 @@ public class Tea {
     public void addLemon(){
         System.out.println("Pouring into cup");
     }
-    
-}
+
+   }
+ 
+

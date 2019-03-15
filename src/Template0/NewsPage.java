@@ -13,6 +13,7 @@ public class NewsPage {
   public void showPage(){
        System.out.println("Header");
         System.out.println("News");
+        System.out.println("Content");
         System.out.println("Footer");
     }
 

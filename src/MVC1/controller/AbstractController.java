@@ -7,10 +7,7 @@ package MVC1.controller;
 
 import javax.swing.text.View;
 
-/**
- *
- * @author user
- */
+
 public abstract class AbstractController implements Controller{
     protected Model model;
    protected View view;
@@ -27,3 +24,4 @@ public abstract class AbstractController implements Controller{
     view.show(); 
  }
 }
+

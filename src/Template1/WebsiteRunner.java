@@ -24,5 +24,10 @@ public class WebsiteRunner {
         WebsiteTemplate shopPage = new ShopPage();
         shopPage.showPage();
         System.out.println("Shop");
+
+        WebsiteTemplate productsPage = new ProductsPage();
+        shopPage.showPage();
+        System.out.println("Delivery");
+
     }
 }

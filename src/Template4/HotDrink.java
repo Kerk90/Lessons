@@ -36,4 +36,8 @@ public abstract class HotDrink {
     boolean customerWantsIngridients() {
         return true;
     }
+
+    void prepareRecipe() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
 }
